@@ -1,12 +1,14 @@
-import React from 'react'
-import Hero from '../Components/Hero'
+import React from "react";
+import Hero from "../Components/Hero";
+import FeaturedDestination from "../Components/FeaturedDestination";
 
 function Home() {
   return (
     <div>
-        <Hero/>
+      <Hero />
+      <FeaturedDestination />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
